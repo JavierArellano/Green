@@ -116,7 +116,7 @@
         width: 80%;
         box-shadow: 0px 5px 8px rgba(0,0,0,0.4);
         border-radius: 15px;
-        overflow: scroll;
+        overflow: hidden;
     }
 
     .content-items p {
@@ -129,6 +129,9 @@
 }
  
 @media (max-width: 480px) {
+    .banner {
+        display: none;
+    }
 
     .caption {
         top: 150px;
@@ -161,7 +164,7 @@
         width: 80%;
         box-shadow: 0px 5px 8px rgba(0,0,0,0.4);
         border-radius: 15px;
-        overflow: scroll;
+        overflow: hidden;
     }
 
     .content-items p {
