@@ -39,15 +39,6 @@
 
 }
 
-.text img {
-	position: relative;
-	margin-top: 20px;
-	left: 50px;
-	width: 400px;
-	height: 250px;
-	box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
-}
-
 @media (max-width: 480px) {
     .content {
     	position: absolute;
@@ -70,5 +61,10 @@
     }
     .about img {
         padding:0;
-    }    
+    }
+    .text {
+        width: 50%;
+        height: 55%;
+        margin-right: 21%;
+    }
 }
